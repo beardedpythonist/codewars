@@ -1,11 +1,12 @@
 
-ls = [8,3,11,15]
-n = int(input())
 
-lstotal = []
+dict1 = {'www': 'rrr'}
 
-for c in range(len(ls) - 1):
-    if ls[c] +ls[c + 1 ] == n:
-        lstotal.append(c)
-        lstotal.append(c + 1)
-print(lstotal)
+x = dict1['www']
+dict1['y'] = 5
+
+print(dict1)
+
+
+
+
