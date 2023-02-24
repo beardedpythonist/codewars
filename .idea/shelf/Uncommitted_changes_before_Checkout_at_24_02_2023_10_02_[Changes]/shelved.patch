@@ -1,0 +1,26 @@
+Index: PycharmProjects/zadachi_codwars/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\n\r\na = int(input())\r\nc = a **2\r\n\r\nprint(c)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PycharmProjects/zadachi_codwars/main.py b/PycharmProjects/zadachi_codwars/main.py
+--- a/PycharmProjects/zadachi_codwars/main.py	(revision ddb87f3ff87cd4035c733c952590a5e5679b2363)
++++ b/PycharmProjects/zadachi_codwars/main.py	(date 1677222143359)
+@@ -1,8 +1,12 @@
+ 
+ 
++dict1 = {'www': 'rrr'}
++
++x = dict1['www']
++dict1['y'] = 5
+ 
+-a = int(input())
+-c = a **2
++print(dict1)
+ 
+-print(c)
++
++
+ 
